@@ -1,0 +1,2035 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Anupam's Portfolio</title>
+
+    <!-- font-awesome integrate-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- font-integrate -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- tailwid+daisyui -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@5"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link href="https://fonts.cdnfonts.com/css/agustina" rel="stylesheet"/>
+    <!-- <link rel="stylesheet" href="index.css"> -->
+    <style>
+      * {
+        font-family: "Montserrat", sans-serif;
+      }
+      .sig {
+        font-family: "Agustina", sans-serif;
+      }
+      .banner-text {
+        flex: 1;
+      }
+      .banner-image {
+        flex: 1;
+      }
+      .button {
+        align-items: center;
+        background: #0645ad;
+        border-radius: 4px;
+        color: #f5f2f4;
+        cursor: pointer;
+        display: inline-flex;
+        font-size: 0.75rem;
+        height: 2em;
+        justify-content: center;
+        line-height: 1.5;
+        margin: 0 0.5rem 0.5rem 0;
+        padding: 0 0.75em;
+        transition: 0.2s ease-in;
+        vertical-align: middle;
+          white-space: nowrap;
+      }
+       html {
+        scroll-behavior: smooth;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- navbar -->
+    <section class="w-[95%] mx-auto flex justify-between items-center p-4 mb-5 max-[598px]:flex-col gap-10">
+      <div>
+        <a href="#" class="sig text-2xl text-center text-[#6a2a96]"
+          >Anupam Roy</a>
+      </div>
+      <div class="grid grid-cols-2 gap-2 md:grid-cols-3 lg:flex lg:gap-4">
+        <a href="#project"><div><i class="fa-solid fa-folder-open"></i> Projects</div></a>
+        <a href="#skill"><div ><i class="fa-solid fa-screwdriver-wrench"></i> Skills</div></a>
+        <a href="#certificate"><div class="flex justify-left items-center gap-1"><i class="fa-solid fa-certificate"></i> <p> Certifications</p></div></a>
+        <a href="#problem-solving"><div class="flex items-center gap-1 leading-4 lg:leading-6"><i class="fas fa-brain menu-item-icon" aria-hidden="true"></i> Problem Solving</div></a>
+        <a href="#education"><div><i class="fas fa-graduation-cap menu-item-icon" aria-hidden="true"></i> Education</div></a>
+        <a href="#contact"><div><i class="fas fa-envelope menu-item-icon" aria-hidden="true"></i> Contact</div></a>
+      </div> 
+      <div class="hidden navbar-end">
+        <div class="dropdown">
+          <div tabindex="0" role="button" class="btn btn-ghost btn-circle">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7" /> </svg>
+          </div>
+          <ul
+            tabindex="-1"
+            class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
+            <li><a>Homepage</a></li>
+            <li><a>Portfolio</a></li>
+            <li><a>About</a></li>
+          </ul> 
+        </div>
+      </div>
+    </section>
+
+    <!-- bannersection -->
+    <section class="flex justify-between w-[95%] mx-auto items-center gap-9">
+      <div class="banner-text">
+        <p class="text-4xl font-bold">Hi I'm Anupam Roy</p>
+        <p class="text-xl">
+          Web-Developer. Love to solve programming problems. Coding enthusiast.
+          CSE graduate from RUET. Have Passion in Competetive Programming
+        </p>
+        <div class="flex mt-5 gap-10">
+            <a href="https://www.facebook.com/anupam.roy.677020" target="_blank" class="bg-[#1da1f2] w-14 h-14 rounded-full flex justify-center items-center">
+              <i class="fa-brands fa-facebook-f text-3xl text-white"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/anupam-roy-b62227264/" target="_blank" class="bg-[#385998] w-14 h-14 rounded-full flex justify-center items-center">
+              <i class="fa-brands fa-linkedin-in text-3xl text-white"></i>
+            </a>
+            <a href="https://github.com/Anupam-Roy16" target="_blank" class="bg-[#0e76a8] w-14 h-14 rounded-full flex justify-center items-center">
+              <!-- <i class="fa-brands fa-linkedin-in text-3xl text-white"></i> -->
+              <i class="fa-brands fa-github text-3xl text-white"></i>
+            </a>
+            <a href="mailto:anu.ruet@gmail.com" target="_blank" class="bg-[#EA4335] w-14 h-14 rounded-full flex justify-center items-center">
+              <i class="fa-regular fa-envelope text-3xl text-white"></i>
+            </a>
+        </div>
+            <a href="#contact">
+              <button onclick="" class="mt-9 w-40 btn btn-primary">CONTACT ME</button>
+            </a>
+        </div>
+      <div class="banner-image">
+        <img
+          class="rounded-2xl"
+          src="image/working-place-wooden-table.jpg"
+          alt=""
+        />
+      </div>
+    </section>
+
+    <!-- project section -->
+    <section id="project" class="mt-20 mx-auto project w-[95%]">
+      <div class="mb-5">
+        <h1 class="text-4xl">Projects</h1>
+        <p class="opacity-80">
+          A collection of my GitHub repositories and personal projects,
+          including both open source contributions and private projects with
+          live demos
+        </p>
+      </div>
+      <div
+        class="project-conatiner grid grid-cols-3 gap-8 justify-items-center"
+      >
+        <div class="card bg-base-100 w-96 shadow-2xl">
+          <figure class="px-10 pt-10">
+            <i class="fa-duotone fa-solid text-6xl fa-desktop"></i>
+          </figure>
+          <div class="card-body items-center text-center">
+            <h2 class="card-title text-2xl">Github Issues Tracker</h2>
+            <p>
+              A card component has ratione natus accusamus, at molestias
+              necessitat
+            </p>
+            <div class="flex flex-wrap gap-2">
+              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
+                >Badge</span
+              >
+              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
+                >Badge</span
+              >
+              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
+                >Badge</span
+              >
+              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
+                >Badge</span
+              >
+              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
+                >Badge</span
+              >
+              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
+                >Badge</span
+              >
+              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
+                >Badge</span
+              >
+              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
+                >Badge</span
+              >
+            </div>
+            <div class="card-actions mt-4">
+              <a
+                href="https://githubissuetrackerph.netlify.app/"
+                target="_blank"
+                class="button"
+                >website</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="card bg-base-100 w-96 shadow-2xl">
+          <figure class="px-10 pt-10">
+            <i class="fa-duotone fa-solid text-6xl fa-desktop"></i>
+          </figure>
+          <div class="card-body items-center text-center">
+            <h2 class="card-title text-2xl">Github Issues Tracker</h2>
+            <p>
+              A card component has ratione natus accusamus, at molestias
+              necessitatibus neque, hic et, vitae quos error nostrum. Nemo
+              magnam sint voluptas iure nulla maxime voluptate dolor? and inside
+              body there are title and actions parts
+            </p>
+            <div class="flex flex-wrap gap-2">
+              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
+                >Badge</span
+              >
+              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
+                >Badge</span
+              >
+              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
+                >Badge</span
+              >
+              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
+                >Badge</span
+              >
+              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
+                >Badge</span
+              >
+              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
+                >Badge</span
+              >
+              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
+                >Badge</span
+              >
+              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
+                >Badge</span
+              >
+            </div>
+            <div class="card-actions mt-4">
+              <a
+                href="https://githubissuetrackerph.netlify.app/"
+                target="_blank"
+                class="button"
+                >website</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="card bg-base-100 w-96 shadow-2xl">
+          <figure class="px-10 pt-10">
+            <i class="fa-duotone fa-solid text-6xl fa-desktop"></i>
+          </figure>
+          <div class="card-body items-center text-center">
+            <h2 class="card-title text-2xl">Github Issues Tracker</h2>
+            <p>
+              A card component has ratione natus accusamus, at molestias
+              necessitatibus neque, hic et, vitae quos error nostrum. Nemo
+              magnam sint voluptas iure nulla maxime voluptate dolor? and inside
+              body there are title and actions parts
+            </p>
+            <div class="flex flex-wrap gap-2">
+              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
+                >Badge</span
+              >
+              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
+                >Badge</span
+              >
+              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
+                >Badge</span
+              >
+              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
+                >Badge</span
+              >
+              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
+                >Badge</span
+              >
+              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
+                >Badge</span
+              >
+              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
+                >Badge</span
+              >
+              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
+                >Badge</span
+              >
+            </div>
+            <div class="card-actions mt-4">
+              <a
+                href="https://githubissuetrackerph.netlify.app/"
+                target="_blank"
+                class="button"
+                >website</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="card bg-base-100 w-96 shadow-2xl">
+          <figure class="px-10 pt-10">
+            <i class="fa-duotone fa-solid text-6xl fa-desktop"></i>
+          </figure>
+          <div class="card-body items-center text-center">
+            <h2 class="card-title text-2xl">Github Issues Tracker</h2>
+            <p>
+              A card component has ratione natus accusamus, at molestias
+              necessitatibus neque, hic et, vitae quos error nostrum. Nemo
+              magnam sint voluptas iure nulla maxime voluptate dolor? and inside
+              body there are title and actions parts
+            </p>
+            <div class="flex flex-wrap gap-2">
+              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
+                >Badge</span
+              >
+              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
+                >Badge</span
+              >
+              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
+                >Badge</span
+              >
+              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
+                >Badge</span
+              >
+              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
+                >Badge</span
+              >
+              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
+                >Badge</span
+              >
+              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
+                >Badge</span
+              >
+              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
+                >Badge</span
+              >
+            </div>
+            <div class="card-actions mt-4">
+              <a
+                href="https://githubissuetrackerph.netlify.app/"
+                target="_blank"
+                class="button"
+                >website</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="card bg-base-100 w-96 shadow-2xl">
+          <figure class="px-10 pt-10">
+            <i class="fa-duotone fa-solid text-6xl fa-desktop"></i>
+          </figure>
+          <div class="card-body items-center text-center">
+            <h2 class="card-title text-2xl">Github Issues Tracker</h2>
+            <p>
+              A card component has ratione natus accusamus, at molestias
+              necessitatibus neque, hic et, vitae quos error nostrum. Nemo
+              magnam sint voluptas iure nulla maxime voluptate dolor? and inside
+              body there are title and actions parts
+            </p>
+            <div class="flex flex-wrap gap-2">
+              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
+                >Badge</span
+              >
+              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
+                >Badge</span
+              >
+              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
+                >Badge</span
+              >
+              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
+                >Badge</span
+              >
+              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
+                >Badge</span
+              >
+              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
+                >Badge</span
+              >
+              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
+                >Badge</span
+              >
+              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
+                >Badge</span
+              >
+            </div>
+            <div class="card-actions mt-4">
+              <a
+                href="https://githubissuetrackerph.netlify.app/"
+                target="_blank"
+                class="button"
+                >website</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="card bg-base-100 w-96 shadow-2xl">
+          <figure class="px-10 pt-10">
+            <i class="fa-duotone fa-solid text-6xl fa-desktop"></i>
+          </figure>
+          <div class="card-body items-center text-center">
+            <h2 class="card-title text-2xl">Github Issues Tracker</h2>
+            <p>
+              A card component has ratione natus accusamus, at molestias
+              necessitatibus neque, hic et, vitae quos error nostrum. Nemo
+              magnam sint voluptas iure nulla maxime voluptate dolor? and inside
+              body there are title and actions parts
+            </p>
+            <div class="flex flex-wrap gap-2">
+              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
+                >Badge</span
+              >
+              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
+                >Badge</span
+              >
+              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
+                >Badge</span
+              >
+              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
+                >Badge</span
+              >
+              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
+                >Badge</span
+              >
+              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
+                >Badge</span
+              >
+              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
+                >Badge</span
+              >
+              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
+                >Badge</span
+              >
+            </div>
+            <div class="card-actions mt-4">
+              <a
+                href="https://githubissuetrackerph.netlify.app/"
+                target="_blank"
+                class="button"
+                >website</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="card bg-base-100 w-96 shadow-2xl">
+          <figure class="px-10 pt-10">
+            <i class="fa-duotone fa-solid text-6xl fa-desktop"></i>
+          </figure>
+          <div class="card-body items-center text-center">
+            <h2 class="card-title text-2xl">Github Issues Tracker</h2>
+            <p>
+              A card component has ratione natus accusamus, at molestias
+              necessitatibus neque, hic et, vitae quos error nostrum. Nemo
+              magnam sint voluptas iure nulla maxime voluptate dolor? and inside
+              body there are title and actions parts
+            </p>
+            <div class="flex flex-wrap gap-2">
+              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
+                >Badge</span
+              >
+              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
+                >Badge</span
+              >
+              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
+                >Badge</span
+              >
+              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
+                >Badge</span
+              >
+              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
+                >Badge</span
+              >
+              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
+                >Badge</span
+              >
+              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
+                >Badge</span
+              >
+              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
+                >Badge</span
+              >
+            </div>
+            <div class="card-actions mt-4">
+              <a
+                href="https://githubissuetrackerph.netlify.app/"
+                target="_blank"
+                class="button"
+                >website</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="card bg-base-100 w-96 shadow-2xl">
+          <figure class="px-10 pt-10">
+            <i class="fa-duotone fa-solid text-6xl fa-desktop"></i>
+          </figure>
+          <div class="card-body items-center text-center">
+            <h2 class="card-title text-2xl">Github Issues Tracker</h2>
+            <p>
+              A card component has ratione natus accusamus, at molestias
+              necessitatibus neque, hic et, vitae quos error nostrum. Nemo
+              magnam sint voluptas iure nulla maxime voluptate dolor? and inside
+              body there are title and actions parts
+            </p>
+            <div class="flex flex-wrap gap-2">
+              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
+                >Badge</span
+              >
+              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
+                >Badge</span
+              >
+              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
+                >Badge</span
+              >
+              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
+                >Badge</span
+              >
+              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
+                >Badge</span
+              >
+              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
+                >Badge</span
+              >
+              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
+                >Badge</span
+              >
+              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
+                >Badge</span
+              >
+            </div>
+            <div class="card-actions mt-4">
+              <a
+                href="https://githubissuetrackerph.netlify.app/"
+                target="_blank"
+                class="button"
+                >website</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="card bg-base-100 w-96 shadow-2xl">
+          <figure class="px-10 pt-10">
+            <i class="fa-duotone fa-solid text-6xl fa-desktop"></i>
+          </figure>
+          <div class="card-body items-center text-center">
+            <h2 class="card-title text-2xl">Github Issues Tracker</h2>
+            <p>
+              A card component has ratione natus accusamus, at molestias
+              necessitatibus neque, hic et, vitae quos error nostrum. Nemo
+              magnam sint voluptas iure nulla maxime voluptate dolor? and inside
+              body there are title and actions parts
+            </p>
+            <div class="flex flex-wrap gap-2">
+              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
+                >Badge</span
+              >
+              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
+                >Badge</span
+              >
+              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
+                >Badge</span
+              >
+              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
+                >Badge</span
+              >
+              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
+                >Badge</span
+              >
+              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
+                >Badge</span
+              >
+              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
+                >Badge</span
+              >
+              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
+                >Badge</span
+              >
+            </div>
+            <div class="card-actions mt-4">
+              <a
+                href="https://githubissuetrackerph.netlify.app/"
+                target="_blank"
+                class="button"
+                >website</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Certifications -->
+    <section id="certificate" class="mt-30 mx-auto project w-[90%]">
+      <div class="mb-10">
+        <h1 class="text-4xl">Certifications</h1>
+      </div>
+      <div
+        class="certification-conatiner grid grid-cols-3 gap-8 justify-items-center"
+      >
+        <div class="card bg-base-100 w-96 shadow-2xl">
+          <img
+            class="border max-h-40 mb-0 mx-auto w-[75%]"
+            src="image/ibm.png"
+            alt=""
+          />
+          <div class="mt-0 card-body items-center text-center">
+            <h2 class="card-title text-2xl">Web Development Fundamentals</h2>
+            <p class="">
+              os error nostrum. Nemo magnam sint voluptas iure nulla maxime
+              voluptate dolor? and inside body there are title a
+            </p>
+            <div class="flex flex-wrap gap-2">
+              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
+                >Badge</span
+              >
+              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
+                >Badge</span
+              >
+              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
+                >Badge</span
+              >
+              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
+                >Badge</span
+              >
+              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
+                >Badge</span
+              >
+              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
+                >Badge</span
+              >
+              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
+                >Badge</span
+              >
+              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
+                >Badge</span
+              >
+            </div>
+            <div class="card-actions mt-4">
+              <a
+                href="https://githubissuetrackerph.netlify.app/"
+                target="_blank"
+                class="button"
+                >certificate</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="card bg-base-100 w-96 shadow-2xl">
+          <img
+            class="border max-h-40 mb-0 mx-auto w-[75%]"
+            src="image/ibm.png"
+            alt=""
+          />
+          <div class="mt-0 card-body items-center text-center">
+            <h2 class="card-title text-2xl">Web Development Fundamentals</h2>
+            <p class="">
+              os error nostrum. Nemo magnam sint voluptas iure nulla maxime
+              voluptate dolor? and inside body there are title a
+            </p>
+            <div class="flex flex-wrap gap-2">
+              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
+                >Badge</span
+              >
+              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
+                >Badge</span
+              >
+              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
+                >Badge</span
+              >
+              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
+                >Badge</span
+              >
+              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
+                >Badge</span
+              >
+              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
+                >Badge</span
+              >
+              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
+                >Badge</span
+              >
+              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
+                >Badge</span
+              >
+            </div>
+            <div class="card-actions mt-4">
+              <a
+                href="https://githubissuetrackerph.netlify.app/"
+                target="_blank"
+                class="button"
+                >certificate</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="card bg-base-100 w-96 shadow-2xl">
+          <img
+            class="border max-h-40 mb-0 mx-auto w-[75%]"
+            src="image/ibm.png"
+            alt=""
+          />
+          <div class="mt-0 card-body items-center text-center">
+            <h2 class="card-title text-2xl">Web Development Fundamentals</h2>
+            <p class="">
+              os error nostrum. Nemo magnam sint voluptas iure nulla maxime
+              voluptate dolor? and inside body there are title a
+            </p>
+            <div class="flex flex-wrap gap-2">
+              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
+                >Badge</span
+              >
+              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
+                >Badge</span
+              >
+              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
+                >Badge</span
+              >
+              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
+                >Badge</span
+              >
+              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
+                >Badge</span
+              >
+              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
+                >Badge</span
+              >
+              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
+                >Badge</span
+              >
+              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
+                >Badge</span
+              >
+            </div>
+            <div class="card-actions mt-4">
+              <a
+                href="https://githubissuetrackerph.netlify.app/"
+                target="_blank"
+                class="button"
+                >certificate</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="card bg-base-100 w-96 shadow-2xl">
+          <img
+            class="border max-h-40 mb-0 mx-auto w-[75%]"
+            src="image/ibm.png"
+            alt=""
+          />
+          <div class="mt-0 card-body items-center text-center">
+            <h2 class="card-title text-2xl">Web Development Fundamentals</h2>
+            <p class="">
+              os error nostrum. Nemo magnam sint voluptas iure nulla maxime
+              voluptate dolor? and inside body there are title a
+            </p>
+            <div class="flex flex-wrap gap-2">
+              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
+                >Badge</span
+              >
+              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
+                >Badge</span
+              >
+              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
+                >Badge</span
+              >
+              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
+                >Badge</span
+              >
+              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
+                >Badge</span
+              >
+              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
+                >Badge</span
+              >
+              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
+                >Badge</span
+              >
+              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
+                >Badge</span
+              >
+            </div>
+            <div class="card-actions mt-4">
+              <a
+                href="https://githubissuetrackerph.netlify.app/"
+                target="_blank"
+                class="button"
+                >certificate</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="card bg-base-100 w-96 shadow-2xl">
+          <img
+            class="border max-h-40 mb-0 mx-auto w-[75%]"
+            src="image/ibm.png"
+            alt=""
+          />
+          <div class="mt-0 card-body items-center text-center">
+            <h2 class="card-title text-2xl">Web Development Fundamentals</h2>
+            <p class="">
+              os error nostrum. Nemo magnam sint voluptas iure nulla maxime
+              voluptate dolor? and inside body there are title a
+            </p>
+            <div class="flex flex-wrap gap-2">
+              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
+                >Badge</span
+              >
+              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
+                >Badge</span
+              >
+              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
+                >Badge</span
+              >
+              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
+                >Badge</span
+              >
+              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
+                >Badge</span
+              >
+              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
+                >Badge</span
+              >
+              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
+                >Badge</span
+              >
+              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
+                >Badge</span
+              >
+            </div>
+            <div class="card-actions mt-4">
+              <a
+                href="https://githubissuetrackerph.netlify.app/"
+                target="_blank"
+                class="button"
+                >certificate</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="card bg-base-100 w-96 shadow-2xl">
+          <img
+            class="border max-h-40 mb-0 mx-auto w-[75%]"
+            src="image/ibm.png"
+            alt=""
+          />
+          <div class="mt-0 card-body items-center text-center">
+            <h2 class="card-title text-2xl">Web Development Fundamentals</h2>
+            <p class="">
+              os error nostrum. Nemo magnam sint voluptas iure nulla maxime
+              voluptate dolor? and inside body there are title a
+            </p>
+            <div class="flex flex-wrap gap-2">
+              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
+                >Badge</span
+              >
+              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
+                >Badge</span
+              >
+              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
+                >Badge</span
+              >
+              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
+                >Badge</span
+              >
+              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
+                >Badge</span
+              >
+              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
+                >Badge</span
+              >
+              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
+                >Badge</span
+              >
+              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
+                >Badge</span
+              >
+            </div>
+            <div class="card-actions mt-4">
+              <a
+                href="https://githubissuetrackerph.netlify.app/"
+                target="_blank"
+                class="button"
+                >certificate</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="card bg-base-100 w-96 shadow-2xl">
+          <img
+            class="border max-h-40 mb-0 mx-auto w-[75%]"
+            src="image/ibm.png"
+            alt=""
+          />
+          <div class="mt-0 card-body items-center text-center">
+            <h2 class="card-title text-2xl">Web Development Fundamentals</h2>
+            <p class="">
+              os error nostrum. Nemo magnam sint voluptas iure nulla maxime
+              voluptate dolor? and inside body there are title a
+            </p>
+            <div class="flex flex-wrap gap-2">
+              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
+                >Badge</span
+              >
+              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
+                >Badge</span
+              >
+              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
+                >Badge</span
+              >
+              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
+                >Badge</span
+              >
+              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
+                >Badge</span
+              >
+              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
+                >Badge</span
+              >
+              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
+                >Badge</span
+              >
+              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
+                >Badge</span
+              >
+            </div>
+            <div class="card-actions mt-4">
+              <a
+                href="https://githubissuetrackerph.netlify.app/"
+                target="_blank"
+                class="button"
+                >certificate</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="card bg-base-100 w-96 shadow-2xl">
+          <img
+            class="border max-h-40 mb-0 mx-auto w-[75%]"
+            src="image/ibm.png"
+            alt=""
+          />
+          <div class="mt-0 card-body items-center text-center">
+            <h2 class="card-title text-2xl">Web Development Fundamentals</h2>
+            <p class="">
+              os error nostrum. Nemo magnam sint voluptas iure nulla maxime
+              voluptate dolor? and inside body there are title a
+            </p>
+            <div class="flex flex-wrap gap-2">
+              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
+                >Badge</span
+              >
+              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
+                >Badge</span
+              >
+              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
+                >Badge</span
+              >
+              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
+                >Badge</span
+              >
+              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
+                >Badge</span
+              >
+              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
+                >Badge</span
+              >
+              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
+                >Badge</span
+              >
+              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
+                >Badge</span
+              >
+            </div>
+            <div class="card-actions mt-4">
+              <a
+                href="https://githubissuetrackerph.netlify.app/"
+                target="_blank"
+                class="button"
+                >certificate</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="card bg-base-100 w-96 shadow-2xl">
+          <img
+            class="border max-h-40 mb-0 mx-auto w-[75%]"
+            src="image/ibm.png"
+            alt=""
+          />
+          <div class="mt-0 card-body items-center text-center">
+            <h2 class="card-title text-2xl">Web Development Fundamentals</h2>
+            <p class="">
+              os error nostrum. Nemo magnam sint voluptas iure nulla maxime
+              voluptate dolor? and inside body there are title a
+            </p>
+            <div class="flex flex-wrap gap-2">
+              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
+                >Badge</span
+              >
+              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
+                >Badge</span
+              >
+              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
+                >Badge</span
+              >
+              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
+                >Badge</span
+              >
+              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
+                >Badge</span
+              >
+              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
+                >Badge</span
+              >
+              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
+                >Badge</span
+              >
+              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
+                >Badge</span
+              >
+            </div>
+            <div class="card-actions mt-4">
+              <a
+                href="https://githubissuetrackerph.netlify.app/"
+                target="_blank"
+                class="button"
+                >certificate</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="card bg-base-100 w-96 shadow-2xl">
+          <img
+            class="border max-h-40 mb-0 mx-auto w-[75%]"
+            src="image/ibm.png"
+            alt=""
+          />
+          <div class="mt-0 card-body items-center text-center">
+            <h2 class="card-title text-2xl">Web Development Fundamentals</h2>
+            <p class="">
+              os error nostrum. Nemo magnam sint voluptas iure nulla maxime
+              voluptate dolor? and inside body there are title a
+            </p>
+            <div class="flex flex-wrap gap-2">
+              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
+                >Badge</span
+              >
+              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
+                >Badge</span
+              >
+              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
+                >Badge</span
+              >
+              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
+                >Badge</span
+              >
+              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
+                >Badge</span
+              >
+              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
+                >Badge</span
+              >
+              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
+                >Badge</span
+              >
+              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
+                >Badge</span
+              >
+            </div>
+            <div class="card-actions mt-4">
+              <a
+                href="https://githubissuetrackerph.netlify.app/"
+                target="_blank"
+                class="button"
+                >certificate</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="card bg-base-100 w-96 shadow-2xl">
+          <img
+            class="border max-h-40 mb-0 mx-auto w-[75%]"
+            src="image/ibm.png"
+            alt=""
+          />
+          <div class="mt-0 card-body items-center text-center">
+            <h2 class="card-title text-2xl">Web Development Fundamentals</h2>
+            <p class="">
+              os error nostrum. Nemo magnam sint voluptas iure nulla maxime
+              voluptate dolor? and inside body there are title a
+            </p>
+            <div class="flex flex-wrap gap-2">
+              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
+                >Badge</span
+              >
+              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
+                >Badge</span
+              >
+              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
+                >Badge</span
+              >
+              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
+                >Badge</span
+              >
+              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
+                >Badge</span
+              >
+              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
+                >Badge</span
+              >
+              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
+                >Badge</span
+              >
+              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
+                >Badge</span
+              >
+            </div>
+            <div class="card-actions mt-4">
+              <a
+                href="https://githubissuetrackerph.netlify.app/"
+                target="_blank"
+                class="button"
+                >certificate</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- skills-section -->
+    <section id="skill" class="mt-30 mb-10 mx-auto project w-[95%]">
+      <div class="mb-10">
+        <h1 class="text-4xl">Skills</h1>
+      </div>
+      <div class="skill-conatiner flex gap-5">
+        <div class="left">
+          <div class="flex items-center gap-1">
+            <i class="fas fa-code text-blue-600" style="font-size: 16px"></i>
+            <h3 class="text-blue-600">Language</h3>
+          </div>
+
+          <div class="flex flex-wrap">
+            <span
+              style="
+                display: inline-flex;
+                align-items: center;
+                gap: 6px;
+                margin: 4px 8px 4px 0px;
+                padding: 8px 16px;
+                background-color: rgb(247, 250, 252);
+                border: 1px solid rgb(226, 232, 240);
+                border-radius: 6px;
+                font-size: 14px;
+                font-weight: 500;
+                color: rgb(45, 55, 72);
+              "
+              ><i
+                class="fas fa-copyright"
+                style="font-size: 13px; color: rgb(74, 85, 104)"
+              ></i
+              >C++</span
+            >
+            <span
+              style="
+                display: inline-flex;
+                align-items: center;
+                gap: 6px;
+                margin: 4px 8px 4px 0px;
+                padding: 8px 16px;
+                background-color: rgb(247, 250, 252);
+                border: 1px solid rgb(226, 232, 240);
+                border-radius: 6px;
+                font-size: 14px;
+                font-weight: 500;
+                color: rgb(45, 55, 72);
+              "
+              ><i
+                class="fas fa-copyright"
+                style="font-size: 13px; color: rgb(74, 85, 104)"
+              ></i
+              >C++</span
+            >
+            <span
+              style="
+                display: inline-flex;
+                align-items: center;
+                gap: 6px;
+                margin: 4px 8px 4px 0px;
+                padding: 8px 16px;
+                background-color: rgb(247, 250, 252);
+                border: 1px solid rgb(226, 232, 240);
+                border-radius: 6px;
+                font-size: 14px;
+                font-weight: 500;
+                color: rgb(45, 55, 72);
+              "
+              ><i
+                class="fas fa-copyright"
+                style="font-size: 13px; color: rgb(74, 85, 104)"
+              ></i
+              >C++</span
+            >
+            <span
+              style="
+                display: inline-flex;
+                align-items: center;
+                gap: 6px;
+                margin: 4px 8px 4px 0px;
+                padding: 8px 16px;
+                background-color: rgb(247, 250, 252);
+                border: 1px solid rgb(226, 232, 240);
+                border-radius: 6px;
+                font-size: 14px;
+                font-weight: 500;
+                color: rgb(45, 55, 72);
+              "
+              ><i
+                class="fas fa-copyright"
+                style="font-size: 13px; color: rgb(74, 85, 104)"
+              ></i
+              >C++</span
+            >
+            <span
+              style="
+                display: inline-flex;
+                align-items: center;
+                gap: 6px;
+                margin: 4px 8px 4px 0px;
+                padding: 8px 16px;
+                background-color: rgb(247, 250, 252);
+                border: 1px solid rgb(226, 232, 240);
+                border-radius: 6px;
+                font-size: 14px;
+                font-weight: 500;
+                color: rgb(45, 55, 72);
+              "
+              ><i
+                class="fas fa-copyright"
+                style="font-size: 13px; color: rgb(74, 85, 104)"
+              ></i
+              >C++</span
+            >
+            <span
+              style="
+                display: inline-flex;
+                align-items: center;
+                gap: 6px;
+                margin: 4px 8px 4px 0px;
+                padding: 8px 16px;
+                background-color: rgb(247, 250, 252);
+                border: 1px solid rgb(226, 232, 240);
+                border-radius: 6px;
+                font-size: 14px;
+                font-weight: 500;
+                color: rgb(45, 55, 72);
+              "
+              ><i
+                class="fas fa-copyright"
+                style="font-size: 13px; color: rgb(74, 85, 104)"
+              ></i
+              >C++</span
+            >
+            <span
+              style="
+                display: inline-flex;
+                align-items: center;
+                gap: 6px;
+                margin: 4px 8px 4px 0px;
+                padding: 8px 16px;
+                background-color: rgb(247, 250, 252);
+                border: 1px solid rgb(226, 232, 240);
+                border-radius: 6px;
+                font-size: 14px;
+                font-weight: 500;
+                color: rgb(45, 55, 72);
+              "
+              ><i
+                class="fas fa-copyright"
+                style="font-size: 13px; color: rgb(74, 85, 104)"
+              ></i
+              >C++</span
+            >
+            <span
+              style="
+                display: inline-flex;
+                align-items: center;
+                gap: 6px;
+                margin: 4px 8px 4px 0px;
+                padding: 8px 16px;
+                background-color: rgb(247, 250, 252);
+                border: 1px solid rgb(226, 232, 240);
+                border-radius: 6px;
+                font-size: 14px;
+                font-weight: 500;
+                color: rgb(45, 55, 72);
+              "
+              ><i
+                class="fas fa-copyright"
+                style="font-size: 13px; color: rgb(74, 85, 104)"
+              ></i
+              >C++</span
+            >
+            <span
+              style="
+                display: inline-flex;
+                align-items: center;
+                gap: 6px;
+                margin: 4px 8px 4px 0px;
+                padding: 8px 16px;
+                background-color: rgb(247, 250, 252);
+                border: 1px solid rgb(226, 232, 240);
+                border-radius: 6px;
+                font-size: 14px;
+                font-weight: 500;
+                color: rgb(45, 55, 72);
+              "
+              ><i
+                class="fas fa-copyright"
+                style="font-size: 13px; color: rgb(74, 85, 104)"
+              ></i
+              >C++</span
+            >
+          </div>
+          <div class="flex items-center gap-1">
+            <i class="fas fa-code text-blue-600" style="font-size: 16px"></i>
+            <h3 class="text-blue-600">Language</h3>
+          </div>
+
+          <div class="flex flex-wrap">
+            <span
+              style="
+                display: inline-flex;
+                align-items: center;
+                gap: 6px;
+                margin: 4px 8px 4px 0px;
+                padding: 8px 16px;
+                background-color: rgb(247, 250, 252);
+                border: 1px solid rgb(226, 232, 240);
+                border-radius: 6px;
+                font-size: 14px;
+                font-weight: 500;
+                color: rgb(45, 55, 72);
+              "
+              ><i
+                class="fas fa-copyright"
+                style="font-size: 13px; color: rgb(74, 85, 104)"
+              ></i
+              >C++</span
+            >
+            <span
+              style="
+                display: inline-flex;
+                align-items: center;
+                gap: 6px;
+                margin: 4px 8px 4px 0px;
+                padding: 8px 16px;
+                background-color: rgb(247, 250, 252);
+                border: 1px solid rgb(226, 232, 240);
+                border-radius: 6px;
+                font-size: 14px;
+                font-weight: 500;
+                color: rgb(45, 55, 72);
+              "
+              ><i
+                class="fas fa-copyright"
+                style="font-size: 13px; color: rgb(74, 85, 104)"
+              ></i
+              >C++</span
+            >
+            <span
+              style="
+                display: inline-flex;
+                align-items: center;
+                gap: 6px;
+                margin: 4px 8px 4px 0px;
+                padding: 8px 16px;
+                background-color: rgb(247, 250, 252);
+                border: 1px solid rgb(226, 232, 240);
+                border-radius: 6px;
+                font-size: 14px;
+                font-weight: 500;
+                color: rgb(45, 55, 72);
+              "
+              ><i
+                class="fas fa-copyright"
+                style="font-size: 13px; color: rgb(74, 85, 104)"
+              ></i
+              >C++</span
+            >
+            <span
+              style="
+                display: inline-flex;
+                align-items: center;
+                gap: 6px;
+                margin: 4px 8px 4px 0px;
+                padding: 8px 16px;
+                background-color: rgb(247, 250, 252);
+                border: 1px solid rgb(226, 232, 240);
+                border-radius: 6px;
+                font-size: 14px;
+                font-weight: 500;
+                color: rgb(45, 55, 72);
+              "
+              ><i
+                class="fas fa-copyright"
+                style="font-size: 13px; color: rgb(74, 85, 104)"
+              ></i
+              >C++</span
+            >
+            <span
+              style="
+                display: inline-flex;
+                align-items: center;
+                gap: 6px;
+                margin: 4px 8px 4px 0px;
+                padding: 8px 16px;
+                background-color: rgb(247, 250, 252);
+                border: 1px solid rgb(226, 232, 240);
+                border-radius: 6px;
+                font-size: 14px;
+                font-weight: 500;
+                color: rgb(45, 55, 72);
+              "
+              ><i
+                class="fas fa-copyright"
+                style="font-size: 13px; color: rgb(74, 85, 104)"
+              ></i
+              >C++</span
+            >
+            <span
+              style="
+                display: inline-flex;
+                align-items: center;
+                gap: 6px;
+                margin: 4px 8px 4px 0px;
+                padding: 8px 16px;
+                background-color: rgb(247, 250, 252);
+                border: 1px solid rgb(226, 232, 240);
+                border-radius: 6px;
+                font-size: 14px;
+                font-weight: 500;
+                color: rgb(45, 55, 72);
+              "
+              ><i
+                class="fas fa-copyright"
+                style="font-size: 13px; color: rgb(74, 85, 104)"
+              ></i
+              >C++</span
+            >
+            <span
+              style="
+                display: inline-flex;
+                align-items: center;
+                gap: 6px;
+                margin: 4px 8px 4px 0px;
+                padding: 8px 16px;
+                background-color: rgb(247, 250, 252);
+                border: 1px solid rgb(226, 232, 240);
+                border-radius: 6px;
+                font-size: 14px;
+                font-weight: 500;
+                color: rgb(45, 55, 72);
+              "
+              ><i
+                class="fas fa-copyright"
+                style="font-size: 13px; color: rgb(74, 85, 104)"
+              ></i
+              >C++</span
+            >
+            <span
+              style="
+                display: inline-flex;
+                align-items: center;
+                gap: 6px;
+                margin: 4px 8px 4px 0px;
+                padding: 8px 16px;
+                background-color: rgb(247, 250, 252);
+                border: 1px solid rgb(226, 232, 240);
+                border-radius: 6px;
+                font-size: 14px;
+                font-weight: 500;
+                color: rgb(45, 55, 72);
+              "
+              ><i
+                class="fas fa-copyright"
+                style="font-size: 13px; color: rgb(74, 85, 104)"
+              ></i
+              >C++</span
+            >
+            <span
+              style="
+                display: inline-flex;
+                align-items: center;
+                gap: 6px;
+                margin: 4px 8px 4px 0px;
+                padding: 8px 16px;
+                background-color: rgb(247, 250, 252);
+                border: 1px solid rgb(226, 232, 240);
+                border-radius: 6px;
+                font-size: 14px;
+                font-weight: 500;
+                color: rgb(45, 55, 72);
+              "
+              ><i
+                class="fas fa-copyright"
+                style="font-size: 13px; color: rgb(74, 85, 104)"
+              ></i
+              >C++</span
+            >
+          </div>
+          <div class="flex items-center gap-1">
+            <i class="fas fa-code text-blue-600" style="font-size: 16px"></i>
+            <h3 class="text-blue-600">Language</h3>
+          </div>
+
+          <div class="flex flex-wrap">
+            <span
+              style="
+                display: inline-flex;
+                align-items: center;
+                gap: 6px;
+                margin: 4px 8px 4px 0px;
+                padding: 8px 16px;
+                background-color: rgb(247, 250, 252);
+                border: 1px solid rgb(226, 232, 240);
+                border-radius: 6px;
+                font-size: 14px;
+                font-weight: 500;
+                color: rgb(45, 55, 72);
+              "
+              ><i
+                class="fas fa-copyright"
+                style="font-size: 13px; color: rgb(74, 85, 104)"
+              ></i
+              >C++</span
+            >
+            <span
+              style="
+                display: inline-flex;
+                align-items: center;
+                gap: 6px;
+                margin: 4px 8px 4px 0px;
+                padding: 8px 16px;
+                background-color: rgb(247, 250, 252);
+                border: 1px solid rgb(226, 232, 240);
+                border-radius: 6px;
+                font-size: 14px;
+                font-weight: 500;
+                color: rgb(45, 55, 72);
+              "
+              ><i
+                class="fas fa-copyright"
+                style="font-size: 13px; color: rgb(74, 85, 104)"
+              ></i
+              >C++</span
+            >
+            <span
+              style="
+                display: inline-flex;
+                align-items: center;
+                gap: 6px;
+                margin: 4px 8px 4px 0px;
+                padding: 8px 16px;
+                background-color: rgb(247, 250, 252);
+                border: 1px solid rgb(226, 232, 240);
+                border-radius: 6px;
+                font-size: 14px;
+                font-weight: 500;
+                color: rgb(45, 55, 72);
+              "
+              ><i
+                class="fas fa-copyright"
+                style="font-size: 13px; color: rgb(74, 85, 104)"
+              ></i
+              >C++</span
+            >
+            <span
+              style="
+                display: inline-flex;
+                align-items: center;
+                gap: 6px;
+                margin: 4px 8px 4px 0px;
+                padding: 8px 16px;
+                background-color: rgb(247, 250, 252);
+                border: 1px solid rgb(226, 232, 240);
+                border-radius: 6px;
+                font-size: 14px;
+                font-weight: 500;
+                color: rgb(45, 55, 72);
+              "
+              ><i
+                class="fas fa-copyright"
+                style="font-size: 13px; color: rgb(74, 85, 104)"
+              ></i
+              >C++</span
+            >
+            <span
+              style="
+                display: inline-flex;
+                align-items: center;
+                gap: 6px;
+                margin: 4px 8px 4px 0px;
+                padding: 8px 16px;
+                background-color: rgb(247, 250, 252);
+                border: 1px solid rgb(226, 232, 240);
+                border-radius: 6px;
+                font-size: 14px;
+                font-weight: 500;
+                color: rgb(45, 55, 72);
+              "
+              ><i
+                class="fas fa-copyright"
+                style="font-size: 13px; color: rgb(74, 85, 104)"
+              ></i
+              >C++</span
+            >
+            <span
+              style="
+                display: inline-flex;
+                align-items: center;
+                gap: 6px;
+                margin: 4px 8px 4px 0px;
+                padding: 8px 16px;
+                background-color: rgb(247, 250, 252);
+                border: 1px solid rgb(226, 232, 240);
+                border-radius: 6px;
+                font-size: 14px;
+                font-weight: 500;
+                color: rgb(45, 55, 72);
+              "
+              ><i
+                class="fas fa-copyright"
+                style="font-size: 13px; color: rgb(74, 85, 104)"
+              ></i
+              >C++</span
+            >
+            <span
+              style="
+                display: inline-flex;
+                align-items: center;
+                gap: 6px;
+                margin: 4px 8px 4px 0px;
+                padding: 8px 16px;
+                background-color: rgb(247, 250, 252);
+                border: 1px solid rgb(226, 232, 240);
+                border-radius: 6px;
+                font-size: 14px;
+                font-weight: 500;
+                color: rgb(45, 55, 72);
+              "
+              ><i
+                class="fas fa-copyright"
+                style="font-size: 13px; color: rgb(74, 85, 104)"
+              ></i
+              >C++</span
+            >
+            <span
+              style="
+                display: inline-flex;
+                align-items: center;
+                gap: 6px;
+                margin: 4px 8px 4px 0px;
+                padding: 8px 16px;
+                background-color: rgb(247, 250, 252);
+                border: 1px solid rgb(226, 232, 240);
+                border-radius: 6px;
+                font-size: 14px;
+                font-weight: 500;
+                color: rgb(45, 55, 72);
+              "
+              ><i
+                class="fas fa-copyright"
+                style="font-size: 13px; color: rgb(74, 85, 104)"
+              ></i
+              >C++</span
+            >
+            <span
+              style="
+                display: inline-flex;
+                align-items: center;
+                gap: 6px;
+                margin: 4px 8px 4px 0px;
+                padding: 8px 16px;
+                background-color: rgb(247, 250, 252);
+                border: 1px solid rgb(226, 232, 240);
+                border-radius: 6px;
+                font-size: 14px;
+                font-weight: 500;
+                color: rgb(45, 55, 72);
+              "
+              ><i
+                class="fas fa-copyright"
+                style="font-size: 13px; color: rgb(74, 85, 104)"
+              ></i
+              >C++</span
+            >
+          </div>
+        </div>
+        <div class="right">
+          <div class="flex items-center gap-1">
+            <i
+              class="fas fa-database text-blue-600"
+              style="font-size: 16px"
+            ></i>
+            <h3 class="text-blue-600">Database</h3>
+          </div>
+          <div class="flex flex-wrap">
+            <span
+              style="
+                display: inline-flex;
+                align-items: center;
+                gap: 6px;
+                margin: 4px 8px 4px 0px;
+                padding: 8px 16px;
+                background-color: rgb(247, 250, 252);
+                border: 1px solid rgb(226, 232, 240);
+                border-radius: 6px;
+                font-size: 14px;
+                font-weight: 500;
+                color: rgb(45, 55, 72);
+              "
+              ><i
+                class="fas fa-copyright"
+                style="font-size: 13px; color: rgb(74, 85, 104)"
+              ></i
+              >C++</span
+            >
+            <span
+              style="
+                display: inline-flex;
+                align-items: center;
+                gap: 6px;
+                margin: 4px 8px 4px 0px;
+                padding: 8px 16px;
+                background-color: rgb(247, 250, 252);
+                border: 1px solid rgb(226, 232, 240);
+                border-radius: 6px;
+                font-size: 14px;
+                font-weight: 500;
+                color: rgb(45, 55, 72);
+              "
+              ><i
+                class="fas fa-copyright"
+                style="font-size: 13px; color: rgb(74, 85, 104)"
+              ></i
+              >C++</span
+            >
+            <span
+              style="
+                display: inline-flex;
+                align-items: center;
+                gap: 6px;
+                margin: 4px 8px 4px 0px;
+                padding: 8px 16px;
+                background-color: rgb(247, 250, 252);
+                border: 1px solid rgb(226, 232, 240);
+                border-radius: 6px;
+                font-size: 14px;
+                font-weight: 500;
+                color: rgb(45, 55, 72);
+              "
+              ><i
+                class="fas fa-copyright"
+                style="font-size: 13px; color: rgb(74, 85, 104)"
+              ></i
+              >C++</span
+            >
+            <span
+              style="
+                display: inline-flex;
+                align-items: center;
+                gap: 6px;
+                margin: 4px 8px 4px 0px;
+                padding: 8px 16px;
+                background-color: rgb(247, 250, 252);
+                border: 1px solid rgb(226, 232, 240);
+                border-radius: 6px;
+                font-size: 14px;
+                font-weight: 500;
+                color: rgb(45, 55, 72);
+              "
+              ><i
+                class="fas fa-copyright"
+                style="font-size: 13px; color: rgb(74, 85, 104)"
+              ></i
+              >C++</span
+            >
+            <span
+              style="
+                display: inline-flex;
+                align-items: center;
+                gap: 6px;
+                margin: 4px 8px 4px 0px;
+                padding: 8px 16px;
+                background-color: rgb(247, 250, 252);
+                border: 1px solid rgb(226, 232, 240);
+                border-radius: 6px;
+                font-size: 14px;
+                font-weight: 500;
+                color: rgb(45, 55, 72);
+              "
+              ><i
+                class="fas fa-copyright"
+                style="font-size: 13px; color: rgb(74, 85, 104)"
+              ></i
+              >C++</span
+            >
+            <span
+              style="
+                display: inline-flex;
+                align-items: center;
+                gap: 6px;
+                margin: 4px 8px 4px 0px;
+                padding: 8px 16px;
+                background-color: rgb(247, 250, 252);
+                border: 1px solid rgb(226, 232, 240);
+                border-radius: 6px;
+                font-size: 14px;
+                font-weight: 500;
+                color: rgb(45, 55, 72);
+              "
+              ><i
+                class="fas fa-copyright"
+                style="font-size: 13px; color: rgb(74, 85, 104)"
+              ></i
+              >C++</span
+            >
+            <span
+              style="
+                display: inline-flex;
+                align-items: center;
+                gap: 6px;
+                margin: 4px 8px 4px 0px;
+                padding: 8px 16px;
+                background-color: rgb(247, 250, 252);
+                border: 1px solid rgb(226, 232, 240);
+                border-radius: 6px;
+                font-size: 14px;
+                font-weight: 500;
+                color: rgb(45, 55, 72);
+              "
+              ><i
+                class="fas fa-copyright"
+                style="font-size: 13px; color: rgb(74, 85, 104)"
+              ></i
+              >C++</span
+            >
+            <span
+              style="
+                display: inline-flex;
+                align-items: center;
+                gap: 6px;
+                margin: 4px 8px 4px 0px;
+                padding: 8px 16px;
+                background-color: rgb(247, 250, 252);
+                border: 1px solid rgb(226, 232, 240);
+                border-radius: 6px;
+                font-size: 14px;
+                font-weight: 500;
+                color: rgb(45, 55, 72);
+              "
+              ><i
+                class="fas fa-copyright"
+                style="font-size: 13px; color: rgb(74, 85, 104)"
+              ></i
+              >C++</span
+            >
+            <span
+              style="
+                display: inline-flex;
+                align-items: center;
+                gap: 6px;
+                margin: 4px 8px 4px 0px;
+                padding: 8px 16px;
+                background-color: rgb(247, 250, 252);
+                border: 1px solid rgb(226, 232, 240);
+                border-radius: 6px;
+                font-size: 14px;
+                font-weight: 500;
+                color: rgb(45, 55, 72);
+              "
+              ><i
+                class="fas fa-copyright"
+                style="font-size: 13px; color: rgb(74, 85, 104)"
+              ></i
+              >C++</span
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education section -->
+    <section id="education" class="mt-30 mb-10 mx-auto project w-[95%]">
+      <div class="mb-10">
+        <h1 class="text-4xl mb-8">Education</h1>
+        <div class="group mb-10">
+          <img
+            class="max-w-30 mb-3 shadow-2xl"
+            src="image/RUET_logo.svg.png"
+            alt=""
+          />
+          <p class="text-xl font-bold">
+            Rajshahi University of Engineering and Technology
+          </p>
+          <p class="text-base font-semibold">
+            Bachelor of Science in Computer Science and Engineering
+          </p>
+          <p>February 2017 - February 2023</p>
+          <p>Rajshahi, Bangladesh</p>
+          <hr class="opacity-30 mt-7 mb-3 group-hover:opacity-100" />
+        </div>
+
+        <div class="group mb-10">
+          <img
+            class="max-w-30 mb-3 shadow-2xl"
+            src="image/contact_1639541368_2021-12-15.gif"
+            alt=""
+          />
+          <p class="text-xl font-bold">Saidpur Govt Science College</p>
+          <p class="text-base font-semibold">Higher Secondary</p>
+          <p>July 2014 - July 2016</p>
+          <p>Nilphamari, Bangladesh</p>
+          <hr class="opacity-30 mt-7 mb-3 group-hover:opacity-100" />
+        </div>
+        <!-- <hr class="opacity-30 mb-3" /> -->
+      </div>
+    </section>
+
+    <!-- problem Solving -->
+    <section id="problem-solving" class="mt-30 mb-10 mx-auto project w-[95%]">
+      <div class="mb-10">
+        <h1 class="text-4xl">Problem Solving Activities</h1>
+      </div>
+      <div
+        class="certification-conatiner grid grid-cols-3 gap-8 justify-items-center"
+      >
+        <div class="card bg-base-100 w-96 shadow-2xl">
+          <img
+            class="max-h-40 mb-0 mx-auto w-[75%]"
+              src="image/ibm.png"
+            alt=""
+          />
+          <div class="mt-0 card-body items-center text-center">
+            <h2 class="card-title text-2xl">Web Development Fundamentals</h2>
+            <p class="">
+              os error nostrum. Nemo magnam sint voluptas iure nulla maxime
+              voluptate dolor? and inside body there are title a
+            </p>
+           
+            <div class="card-actions mt-4">
+              <a
+                href="https://githubissuetrackerph.netlify.app/"
+                target="_blank"
+                class="button"
+                >certificate</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="card bg-base-100 w-96 shadow-2xl">
+          <img
+            class="max-h-40 mb-0 mx-auto w-[75%]"
+            src="image/ibm.png"
+            alt=""
+          />
+          <div class="mt-0 card-body items-center text-center">
+            <h2 class="card-title text-2xl">Web Development Fundamentals</h2>
+            <p class="">
+              os error nostrum. Nemo magnam sint voluptas iure nulla maxime
+              voluptate dolor? and inside body there are title a
+            </p>
+           
+            <div class="card-actions mt-4">
+              <a
+                href="https://githubissuetrackerph.netlify.app/"
+                target="_blank"
+                class="button"
+                >certificate</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="card bg-base-100 w-96 shadow-2xl">
+          <img
+            class="max-h-40 mb-0 mx-auto w-[75%]"
+            src="image/ibm.png"
+            alt=""
+          />
+          <div class="mt-0 card-body items-center text-center">
+            <h2 class="card-title text-2xl">Web Development Fundamentals</h2>
+            <p class="">
+              os error nostrum. Nemo magnam sint voluptas iure nulla maxime
+              voluptate dolor? and inside body there are title a
+            </p>
+           
+            <div class="card-actions mt-4">
+              <a
+                href="https://githubissuetrackerph.netlify.app/"
+                target="_blank"
+                class="button"
+                >certificate</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="card bg-base-100 w-96 shadow-2xl">
+          <img
+            class="max-h-40 mb-0 mx-auto w-[75%]"
+            src="image/ibm.png"
+            alt=""
+          />
+          <div class="mt-0 card-body items-center text-center">
+            <h2 class="card-title text-2xl">Web Development Fundamentals</h2>
+            <p class="">
+              os error nostrum. Nemo magnam sint voluptas iure nulla maxime
+              voluptate dolor? and inside body there are title a
+            </p>
+           
+            <div class="card-actions mt-4">
+              <a
+                href="https://githubissuetrackerph.netlify.app/"
+                target="_blank"
+                class="button"
+                >certificate</a
+              >
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <!-- contact-section  -->
+    <section id="contact" class="space-y-3 mt-30 mb-10 mx-auto w-[95%] text-center">
+      <h1 class="text-4xl">Contact Me</h1>
+      <p>If you want to hire me or have other queries, then knock me anytime. I try to reply within 24 hours.</p>
+      <p class="mb-3 text-xl">anu.ruet@gmail.com</p>
+      <div class="justify-center mt-4 flex gap-10">
+        <button class="btn btn-active btn-primary">Github</button>
+        <button class="btn btn-active btn-secondary">Linkedin</button>
+        <button class="btn btn-active btn-info">Facebook</button>
+      </div>
+    </section>     
+  </body>
+</html>

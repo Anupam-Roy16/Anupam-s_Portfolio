@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer utilities {
+  @media (max-width: 640px) {
+    .sm-only-flex-center {
+      @apply flex justify-center items-center gap-2 leading-4;
+    }
+  }
+}
