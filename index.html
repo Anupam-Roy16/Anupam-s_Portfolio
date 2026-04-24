@@ -67,12 +67,12 @@
   </head>
   <body class="border">
     <!-- navbar -->
-    <section class="w-[95%] mx-auto flex justify-between items-center p-4 mb-5 max-[598px]:flex-col gap-10">
+    <section class="w-[95%] bg-base-100 shadow-sm mx-auto flex justify-between items-center p-4 mb-5 max-[598px]:flex-col gap-10">
       <div>
         <a href="#" class="sig text-2xl text-center text-[#6a2a96]"
           >Anupam Roy</a>
       </div>
-      <div class="grid grid-cols-2 gap-2 md:grid-cols-3 lg:flex lg:gap-4">
+      <div class="grid grid-cols-2 gap-2  md:grid-cols-3 lg:flex lg:gap-4">
         <a href="#project"><div><i class="fa-solid fa-folder-open"></i> Projects</div></a>
         <a href="#skill"><div ><i class="fa-solid fa-screwdriver-wrench"></i> Skills</div></a>
         <a href="#certificate"><div class="flex justify-left items-center gap-1"><i class="fa-solid fa-certificate"></i> <p> Certifications</p></div></a>
@@ -80,31 +80,18 @@
         <a href="#education"><div><i class="fas fa-graduation-cap menu-item-icon" aria-hidden="true"></i> Education</div></a>
         <a href="#contact"><div><i class="fas fa-envelope menu-item-icon" aria-hidden="true"></i> Contact</div></a>
       </div> 
-      <div class="hidden navbar-end">
-        <div class="dropdown">
-          <div tabindex="0" role="button" class="btn btn-ghost btn-circle">
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7" /> </svg>
-          </div>
-          <ul
-            tabindex="-1"
-            class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
-            <li><a>Homepage</a></li>
-            <li><a>Portfolio</a></li>
-            <li><a>About</a></li>
-          </ul> 
-        </div>
-      </div>
+      
     </section>
 
     <!-- bannersection -->
-    <section class="border flex justify-between w-[95%] mx-auto items-center gap-9 max-[903px]:flex-col">
+    <section class="flex justify-between w-[95%] mx-auto items-center gap-9 max-[903px]:flex-col">
       <div class="banner-text max-[903px]:text-center">
         <p class="text-4xl font-bold">Hi I'm Anupam Roy</p>
         <p class="text-xl">
           Web-Developer. Love to solve programming problems. Coding enthusiast.
           CSE graduate from RUET. Have Passion in Competetive Programming
         </p>
-        <div class="max-[903px]:justify-center flex mt-5 gap-10">
+        <div class="max-[903px]:justify-center flex flex-wrap mt-5 gap-10">
             <a href="https://www.facebook.com/anupam.roy.677020" target="_blank" class="bg-[#1da1f2] w-14 h-14 rounded-full flex justify-center items-center">
               <i class="fa-brands fa-facebook-f text-3xl text-white"></i>
             </a>
@@ -119,7 +106,7 @@
               <i class="fa-regular fa-envelope text-3xl text-white"></i>
             </a>
         </div>
-            <a href="#contact" class="flex justify-center">
+            <a href="#contact" class="max-[903px]:flex justify-center">
               <button class="mt-9 w-40 btn btn-primary">CONTACT ME</button>
             </a>
       </div>
@@ -135,8 +122,8 @@
     <!-- project section -->
     <section id="project" class="mt-20 mx-auto project w-[95%]">
       <div class="mb-5">
-        <h1 class="text-4xl">Projects</h1>
-        <p class="opacity-80">
+        <h1 class="text-4xl max-[903px]:text-center">Projects</h1>
+        <p class="opacity-80 max-[903px]:text-center">
           A collection of my GitHub repositories and personal projects,
           including both open source contributions and private projects with
           live demos
@@ -155,7 +142,7 @@
               A card component has ratione natus accusamus, at molestias
               necessitat
             </p>
-            <div class="flex flex-wrap gap-2">
+            <div class="flex justify-center flex-wrap gap-2">
               <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
                 >Badge</span
               >
@@ -201,7 +188,7 @@
               A card component has ratione natus accusamus, at molestias
               necessitat
             </p>
-            <div class="flex flex-wrap gap-2">
+            <div class="flex justify-center flex-wrap gap-2">
               <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
                 >Badge</span
               >
@@ -247,7 +234,7 @@
               A card component has ratione natus accusamus, at molestias
               necessitat
             </p>
-            <div class="flex flex-wrap gap-2">
+            <div class="flex justify-center flex-wrap gap-2">
               <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
                 >Badge</span
               >
@@ -293,7 +280,7 @@
               A card component has ratione natus accusamus, at molestias
               necessitat
             </p>
-            <div class="flex flex-wrap gap-2">
+            <div class="flex justify-center flex-wrap gap-2">
               <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
                 >Badge</span
               >
@@ -337,60 +324,9 @@
             <h2 class="card-title text-2xl">Github Issues Tracker</h2>
             <p>
               A card component has ratione natus accusamus, at molestias
-              necessitatibus neque, hic et, vitae quos error nostrum. Nemo
-              magnam sint voluptas iure nulla maxime voluptate dolor? and inside
-              body there are title and actions parts
+              necessitat
             </p>
-            <div class="flex flex-wrap gap-2">
-              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
-                >Badge</span
-              >
-              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
-                >Badge</span
-              >
-              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
-                >Badge</span
-              >
-              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
-                >Badge</span
-              >
-              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
-                >Badge</span
-              >
-              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
-                >Badge</span
-              >
-              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
-                >Badge</span
-              >
-              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
-                >Badge</span
-              >
-            </div>
-            <div class="card-actions mt-4">
-              <a
-                href="https://githubissuetrackerph.netlify.app/"
-                target="_blank"
-                class="button"
-                >website</a
-              >
-            </div>
-          </div>
-        </div>
-
-        <div class="card bg-base-100 shadow-2xl">
-          <figure class="px-10 pt-10">
-            <i class="fa-duotone fa-solid text-6xl fa-desktop"></i>
-          </figure>
-          <div class="card-body items-center text-center">
-            <h2 class="card-title text-2xl">Github Issues Tracker</h2>
-            <p>
-              A card component has ratione natus accusamus, at molestias
-              necessitatibus neque, hic et, vitae quos error nostrum. Nemo
-              magnam sint voluptas iure nulla maxime voluptate dolor? and inside
-              body there are title and actions parts
-            </p>
-            <div class="flex flex-wrap gap-2">
+            <div class="flex justify-center flex-wrap gap-2">
               <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
                 >Badge</span
               >
@@ -434,11 +370,9 @@
             <h2 class="card-title text-2xl">Github Issues Tracker</h2>
             <p>
               A card component has ratione natus accusamus, at molestias
-              necessitatibus neque, hic et, vitae quos error nostrum. Nemo
-              magnam sint voluptas iure nulla maxime voluptate dolor? and inside
-              body there are title and actions parts
+              necessitat
             </p>
-            <div class="flex flex-wrap gap-2">
+            <div class="flex justify-center flex-wrap gap-2">
               <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
                 >Badge</span
               >
@@ -482,11 +416,9 @@
             <h2 class="card-title text-2xl">Github Issues Tracker</h2>
             <p>
               A card component has ratione natus accusamus, at molestias
-              necessitatibus neque, hic et, vitae quos error nostrum. Nemo
-              magnam sint voluptas iure nulla maxime voluptate dolor? and inside
-              body there are title and actions parts
+              necessitat
             </p>
-            <div class="flex flex-wrap gap-2">
+            <div class="flex justify-center flex-wrap gap-2">
               <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
                 >Badge</span
               >
@@ -530,11 +462,9 @@
             <h2 class="card-title text-2xl">Github Issues Tracker</h2>
             <p>
               A card component has ratione natus accusamus, at molestias
-              necessitatibus neque, hic et, vitae quos error nostrum. Nemo
-              magnam sint voluptas iure nulla maxime voluptate dolor? and inside
-              body there are title and actions parts
+              necessitat
             </p>
-            <div class="flex flex-wrap gap-2">
+            <div class="flex justify-center flex-wrap gap-2">
               <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
                 >Badge</span
               >
@@ -578,11 +508,9 @@
             <h2 class="card-title text-2xl">Github Issues Tracker</h2>
             <p>
               A card component has ratione natus accusamus, at molestias
-              necessitatibus neque, hic et, vitae quos error nostrum. Nemo
-              magnam sint voluptas iure nulla maxime voluptate dolor? and inside
-              body there are title and actions parts
+              necessitat
             </p>
-            <div class="flex flex-wrap gap-2">
+            <div class="flex justify-center flex-wrap gap-2">
               <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
                 >Badge</span
               >
@@ -618,112 +546,17 @@
             </div>
           </div>
         </div>
-        <div class="card bg-base-100 shadow-2xl">
-          <figure class="px-10 pt-10">
-            <i class="fa-duotone fa-solid text-6xl fa-desktop"></i>
-          </figure>
-          <div class="card-body items-center text-center">
-            <h2 class="card-title text-2xl">Github Issues Tracker</h2>
-            <p>
-              A card component has ratione natus accusamus, at molestias
-              necessitatibus neque, hic et, vitae quos error nostrum. Nemo
-              magnam sint voluptas iure nulla maxime voluptate dolor? and inside
-              body there are title and actions parts
-            </p>
-            <div class="flex flex-wrap gap-2">
-              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
-                >Badge</span
-              >
-              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
-                >Badge</span
-              >
-              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
-                >Badge</span
-              >
-              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
-                >Badge</span
-              >
-              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
-                >Badge</span
-              >
-              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
-                >Badge</span
-              >
-              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
-                >Badge</span
-              >
-              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
-                >Badge</span
-              >
-            </div>
-            <div class="card-actions mt-4">
-              <a
-                href="https://githubissuetrackerph.netlify.app/"
-                target="_blank"
-                class="button"
-                >website</a
-              >
-            </div>
-          </div>
-        </div>
-        <div class="card bg-base-100 shadow-2xl">
-          <figure class="px-10 pt-10">
-            <i class="fa-duotone fa-solid text-6xl fa-desktop"></i>
-          </figure>
-          <div class="card-body items-center text-center">
-            <h2 class="card-title text-2xl">Github Issues Tracker</h2>
-            <p>
-              A card component has ratione natus accusamus, at molestias
-              necessitatibus neque, hic et, vitae quos error nostrum. Nemo
-              magnam sint voluptas iure nulla maxime voluptate dolor? and inside
-              body there are title and actions parts
-            </p>
-            <div class="flex flex-wrap gap-2">
-              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
-                >Badge</span
-              >
-              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
-                >Badge</span
-              >
-              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
-                >Badge</span
-              >
-              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
-                >Badge</span
-              >
-              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
-                >Badge</span
-              >
-              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
-                >Badge</span
-              >
-              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
-                >Badge</span
-              >
-              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
-                >Badge</span
-              >
-            </div>
-            <div class="card-actions mt-4">
-              <a
-                href="https://githubissuetrackerph.netlify.app/"
-                target="_blank"
-                class="button"
-                >website</a
-              >
-            </div>
-          </div>
-        </div>
+        
       </div>
     </section>
 
     <!-- Certifications -->
     <section id="certificate" class="mt-30 mx-auto project w-[95%]">
       <div class="mb-10">
-        <h1 class="text-4xl">Certifications</h1>
+        <h1 class="text-4xl max-[903px]:text-center">Certifications</h1>
       </div>
       <div
-        class="certification-conatiner grid grid-cols-3 gap-8"
+        class="certification-conatiner grid grid-cols-3 gap-8 max-[903px]:grid-cols-2 max-[521px]:grid-cols-1"
       >
         <div class="card bg-base-100 shadow-2xl">
           <img
@@ -737,7 +570,7 @@
               os error nostrum. Nemo magnam sint voluptas iure nulla maxime
               voluptate dolor? and inside body there are title a
             </p>
-            <div class="flex flex-wrap gap-2">
+            <div class="flex justify-center flex-wrap gap-2">
               <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
                 >Badge</span
               >
@@ -785,55 +618,7 @@
               os error nostrum. Nemo magnam sint voluptas iure nulla maxime
               voluptate dolor? and inside body there are title a
             </p>
-            <div class="flex flex-wrap gap-2">
-              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
-                >Badge</span
-              >
-              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
-                >Badge</span
-              >
-              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
-                >Badge</span
-              >
-              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
-                >Badge</span
-              >
-              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
-                >Badge</span
-              >
-              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
-                >Badge</span
-              >
-              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
-                >Badge</span
-              >
-              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
-                >Badge</span
-              >
-            </div>
-            <div class="card-actions mt-4">
-              <a
-                href="https://githubissuetrackerph.netlify.app/"
-                target="_blank"
-                class="button"
-                >certificate</a
-              >
-            </div>
-          </div>
-        </div>
-         <div class="card bg-base-100 shadow-2xl">
-          <img
-            class="border max-h-40 mb-0 mx-auto w-[75%]"
-            src="image/ibm.png"
-            alt=""
-          />
-          <div class="mt-0 card-body items-center text-center">
-            <h2 class="card-title text-2xl">Web Development Fundamentals</h2>
-            <p class="">
-              os error nostrum. Nemo magnam sint voluptas iure nulla maxime
-              voluptate dolor? and inside body there are title a
-            </p>
-            <div class="flex flex-wrap gap-2">
+            <div class="flex justify-center flex-wrap gap-2">
               <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
                 >Badge</span
               >
@@ -881,7 +666,7 @@
               os error nostrum. Nemo magnam sint voluptas iure nulla maxime
               voluptate dolor? and inside body there are title a
             </p>
-            <div class="flex flex-wrap gap-2">
+            <div class="flex justify-center flex-wrap gap-2">
               <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
                 >Badge</span
               >
@@ -929,7 +714,7 @@
               os error nostrum. Nemo magnam sint voluptas iure nulla maxime
               voluptate dolor? and inside body there are title a
             </p>
-            <div class="flex flex-wrap gap-2">
+            <div class="flex justify-center flex-wrap gap-2">
               <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
                 >Badge</span
               >
@@ -977,55 +762,7 @@
               os error nostrum. Nemo magnam sint voluptas iure nulla maxime
               voluptate dolor? and inside body there are title a
             </p>
-            <div class="flex flex-wrap gap-2">
-              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
-                >Badge</span
-              >
-              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
-                >Badge</span
-              >
-              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
-                >Badge</span
-              >
-              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
-                >Badge</span
-              >
-              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
-                >Badge</span
-              >
-              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
-                >Badge</span
-              >
-              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
-                >Badge</span
-              >
-              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
-                >Badge</span
-              >
-            </div>
-            <div class="card-actions mt-4">
-              <a
-                href="https://githubissuetrackerph.netlify.app/"
-                target="_blank"
-                class="button"
-                >certificate</a
-              >
-            </div>
-          </div>
-        </div>
-         <div class="card bg-base-100 shadow-2xl">
-          <img
-            class="border max-h-40 mb-0 mx-auto w-[75%]"
-            src="image/ibm.png"
-            alt=""
-          />
-          <div class="mt-0 card-body items-center text-center">
-            <h2 class="card-title text-2xl">Web Development Fundamentals</h2>
-            <p class="">
-              os error nostrum. Nemo magnam sint voluptas iure nulla maxime
-              voluptate dolor? and inside body there are title a
-            </p>
-            <div class="flex flex-wrap gap-2">
+            <div class="flex justify-center flex-wrap gap-2">
               <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
                 >Badge</span
               >
@@ -1073,7 +810,7 @@
               os error nostrum. Nemo magnam sint voluptas iure nulla maxime
               voluptate dolor? and inside body there are title a
             </p>
-            <div class="flex flex-wrap gap-2">
+            <div class="flex justify-center flex-wrap gap-2">
               <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
                 >Badge</span
               >
@@ -1109,6 +846,104 @@
             </div>
           </div>
         </div>
+        <div class="card bg-base-100 shadow-2xl">
+          <img
+            class="border max-h-40 mb-0 mx-auto w-[75%]"
+            src="image/ibm.png"
+            alt=""
+          />
+          <div class="mt-0 card-body items-center text-center">
+            <h2 class="card-title text-2xl">Web Development Fundamentals</h2>
+            <p class="">
+              os error nostrum. Nemo magnam sint voluptas iure nulla maxime
+              voluptate dolor? and inside body there are title a
+            </p>
+            <div class="flex justify-center flex-wrap gap-2">
+              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
+                >Badge</span
+              >
+              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
+                >Badge</span
+              >
+              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
+                >Badge</span
+              >
+              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
+                >Badge</span
+              >
+              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
+                >Badge</span
+              >
+              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
+                >Badge</span
+              >
+              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
+                >Badge</span
+              >
+              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
+                >Badge</span
+              >
+            </div>
+            <div class="card-actions mt-4">
+              <a
+                href="https://githubissuetrackerph.netlify.app/"
+                target="_blank"
+                class="button"
+                >certificate</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="card bg-base-100 shadow-2xl">
+          <img
+            class="border max-h-40 mb-0 mx-auto w-[75%]"
+            src="image/ibm.png"
+            alt=""
+          />
+          <div class="mt-0 card-body items-center text-center">
+            <h2 class="card-title text-2xl">Web Development Fundamentals</h2>
+            <p class="">
+              os error nostrum. Nemo magnam sint voluptas iure nulla maxime
+              voluptate dolor? and inside body there are title a
+            </p>
+            <div class="flex justify-center flex-wrap gap-2">
+              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
+                >Badge</span
+              >
+              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
+                >Badge</span
+              >
+              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
+                >Badge</span
+              >
+              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
+                >Badge</span
+              >
+              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
+                >Badge</span
+              >
+              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
+                >Badge</span
+              >
+              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
+                >Badge</span
+              >
+              <span class="badge bg-[rgb(241,243,244)] text-[rgb(95,99,104)]"
+                >Badge</span
+              >
+            </div>
+            <div class="card-actions mt-4">
+              <a
+                href="https://githubissuetrackerph.netlify.app/"
+                target="_blank"
+                class="button"
+                >certificate</a
+              >
+            </div>
+          </div>
+        </div>
+        
+      
       </div>
     </section>
 
